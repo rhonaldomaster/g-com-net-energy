@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Comics Network | Global Communications Network Energy & Technologies</title>
+  <meta name="description"
+    content="G Com Net's Global Comics Network - Educational comics and visual storytelling promoting renewable energy awareness and environmental stewardship.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'energy-green': '#10B981',
+            'energy-blue': '#0EA5E9',
+            'energy-dark': '#1E293B',
+            'energy-light': '#F1F5F9',
+            'energy-accent': '#F59E0B'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-energy-light text-energy-dark">
+  <!-- Navigation -->
+  <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+    <div class="max-w-[1360px] mx-auto px-4 sm:px-6 lg:px-0 flex justify-between items-center h-16">
+      <!-- Logo -->
+      <a href="index.html" class="flex items-center text-xl font-bold text-energy-dark gap-x-1">
+        <span>G Com Net</span>
+        <span class="text-energy-green">EnerTech</span>
+      </a>
+
+      <!-- Desktop Menu -->
+      <div class="hidden md:block">
+        <div class="ml-10 flex items-center space-x-4">
+          <a href="index.html"
+            class="text-energy-dark hover:text-energy-green px-3 py-2 text-sm font-medium transition-colors">Home</a>
+          <a href="about.html"
+            class="text-energy-dark hover:text-energy-green px-3 py-2 text-sm font-medium transition-colors">About
+            Us</a>
+          <a href="our-products.html"
+            class="text-energy-dark hover:text-energy-green px-3 py-2 text-sm font-medium transition-colors">Our
+            Products</a>
+          <a href="renewable-energy-care.html"
+            class="text-energy-dark hover:text-energy-green px-3 py-2 text-sm font-medium transition-colors">Renewable
+            Energy C.A.R.E.</a>
+          <a href="mmip.html"
+            class="text-energy-dark hover:text-energy-green px-3 py-2 text-sm font-medium transition-colors">MMIP</a>
+          <a href="global-comics-network.html" class="text-energy-green px-3 py-2 text-sm font-medium">Global Comics
+            Network</a>
+          <a href="global-compassion-network.html"
+            class="text-energy-dark hover:text-energy-green px-3 py-2 text-sm font-medium transition-colors">Global
+            Compassion Network</a>
+          <a href="contact.html"
+            class="bg-energy-green text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-green-600 transition-colors">Contact</a>
+        </div>
+      </div>
+
+      <!-- Mobile menu button -->
+      <div class="md:hidden">
+        <button id="mobile-menu-btn"
+          class="text-energy-dark hover:text-energy-green focus:outline-none focus:text-energy-green">
+          <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="md:hidden hidden bg-white border-t border-gray-200">
+      <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+        <a href="index.html"
+          class="block text-energy-dark hover:text-energy-green px-3 py-2 text-base font-medium">Home</a>
+        <a href="about.html"
+          class="block text-energy-dark hover:text-energy-green px-3 py-2 text-base font-medium">About Us</a>
+        <a href="our-products.html"
+          class="block text-energy-dark hover:text-energy-green px-3 py-2 text-base font-medium">Our Products</a>
+        <a href="renewable-energy-care.html"
+          class="block text-energy-dark hover:text-energy-green px-3 py-2 text-base font-medium">Renewable Energy
+          C.A.R.E.</a>
+        <a href="mmip.html"
+          class="block text-energy-dark hover:text-energy-green px-3 py-2 text-base font-medium">MMIP</a>
+        <a href="global-comics-network.html" class="block text-energy-green px-3 py-2 text-base font-medium">Global
+          Comics Network</a>
+        <a href="global-compassion-network.html"
+          class="block text-energy-dark hover:text-energy-green px-3 py-2 text-base font-medium">Global Compassion
+          Network</a>
+        <a href="contact.html"
+          class="block text-energy-dark hover:text-energy-green px-3 py-2 text-base font-medium">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="pt-32 bg-gradient-to-r from-energy-accent to-energy-green text-white pb-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <h1 class="text-4xl md:text-5xl font-bold mb-6">Global Comics Network</h1>
+        <h2 class="text-2xl md:text-3xl mb-4">Visual Storytelling for Energy Education</h2>
+        <p class="text-xl md:text-2xl max-w-3xl mx-auto">
+          Engaging comic stories and visual content that educate, inspire, and empower communities to embrace
+          sustainable energy solutions
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission -->
+  <section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="text-3xl md:text-4xl font-bold text-energy-dark mb-6">The Power of Visual Education</h2>
+          <p class="text-lg text-gray-700 mb-6">
+            The Global Comics Network harnesses the universal appeal of visual storytelling to make complex energy
+            concepts accessible to audiences of all ages and backgrounds, breaking down barriers to environmental
+            education.
+          </p>
+          <p class="text-lg text-gray-700 mb-8">
+            Through engaging characters, compelling narratives, and accurate scientific information, we create content
+            that not only entertains but transforms understanding and behavior around energy consumption and
+            sustainability.
+          </p>
+
+          <div class="bg-energy-light p-6 rounded-lg">
+            <h3 class="text-xl font-semibold text-energy-dark mb-4">Our Creative Mission</h3>
+            <p class="text-gray-700">
+              "Education through inspiration" - Every comic, graphic novel, and visual story is designed to spark
+              curiosity and drive positive action toward a sustainable energy future.
+            </p>
+          </div>
+        </div>
+
+        <div class="bg-gradient-to-br from-energy-accent to-energy-blue p-8 rounded-lg text-white">
+          <h3 class="text-2xl font-bold mb-6">Content Categories</h3>
+          <div class="space-y-4">
+            <div class="flex items-start">
+              <div class="w-8 h-8 bg-white bg-opacity-20 rounded-full flex items-center justify-center mr-4 mt-1">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-semibold mb-1">Educational Comics</h4>
+                <p class="text-sm opacity-90">Age-appropriate stories explaining renewable energy concepts</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="w-8 h-8 bg-white bg-opacity-20 rounded-full flex items-center justify-center mr-4 mt-1">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-semibold mb-1">Environmental Heroes</h4>
+                <p class="text-sm opacity-90">Superhero adventures promoting environmental stewardship</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="w-8 h-8 bg-white bg-opacity-20 rounded-full flex items-center justify-center mr-4 mt-1">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-semibold mb-1">Community Stories</h4>
+                <p class="text-sm opacity-90">Real-world success stories from C.A.R.E. program communities</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="w-8 h-8 bg-white bg-opacity-20 rounded-full flex items-center justify-center mr-4 mt-1">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-semibold mb-1">Future Visions</h4>
+                <p class="text-sm opacity-90">Sci-fi narratives exploring sustainable technology futures</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Comic Series -->
+  <section class="py-16 bg-energy-light">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-energy-dark mb-4">Featured Comic Series</h2>
+        <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+          Original comic series created to educate and inspire action on renewable energy and environmental issues
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- EnerTech Champions -->
+        <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          <div
+            class="w-full h-48 bg-gradient-to-br from-energy-green to-energy-blue rounded-lg mb-6 flex items-center justify-center">
+            <div class="text-white text-center">
+              <svg class="w-16 h-16 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z">
+                </path>
+              </svg>
+              <h4 class="text-xl font-bold">EnerTech Champions</h4>
+            </div>
+          </div>
+          <h3 class="text-xl font-semibold text-energy-dark mb-4">EnerTech Champions</h3>
+          <p class="text-gray-600 mb-4">
+            Young heroes discover their power to save the planet through renewable energy and technology innovation.
+          </p>
+          <div class="text-sm text-gray-500 mb-4">
+            <span class="inline-block bg-energy-green text-white px-2 py-1 rounded mr-2">Ages 8-14</span>
+            <span class="inline-block bg-energy-blue text-white px-2 py-1 rounded">12 Issues</span>
+          </div>
+          <ul class="text-sm text-gray-600 space-y-1">
+            <li>• Solar power fundamentals</li>
+            <li>• Wind energy principles</li>
+            <li>• Energy conservation tips</li>
+            <li>• Teamwork and leadership</li>
+          </ul>
+        </div>
+
+        <!-- Planet Guardians -->
+        <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          <div
+            class="w-full h-48 bg-gradient-to-br from-energy-blue to-energy-dark rounded-lg mb-6 flex items-center justify-center">
+            <div class="text-white text-center">
+              <svg class="w-16 h-16 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                </path>
+              </svg>
+              <h4 class="text-xl font-bold">Planet Guardians</h4>
+            </div>
+          </div>
+          <h3 class="text-xl font-semibold text-energy-dark mb-4">Planet Guardians</h3>
+          <p class="text-gray-600 mb-4">
+            Environmental superheroes from around the world unite to combat climate change through clean energy
+            solutions.
+          </p>
+          <div class="text-sm text-gray-500 mb-4">
+            <span class="inline-block bg-energy-green text-white px-2 py-1 rounded mr-2">Ages 12-18</span>
+            <span class="inline-block bg-energy-blue text-white px-2 py-1 rounded">8 Issues</span>
+          </div>
+          <ul class="text-sm text-gray-600 space-y-1">
+            <li>• Climate science basics</li>
+            <li>• Global energy solutions</li>
+            <li>• Cultural diversity</li>
+            <li>• Environmental activism</li>
+          </ul>
+        </div>
+
+        <!-- Future Cities -->
+        <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          <div
+            class="w-full h-48 bg-gradient-to-br from-energy-accent to-energy-green rounded-lg mb-6 flex items-center justify-center">
+            <div class="text-white text-center">
+              <svg class="w-16 h-16 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4">
+                </path>
+              </svg>
+              <h4 class="text-xl font-bold">Future Cities</h4>
+            </div>
+          </div>
+          <h3 class="text-xl font-semibold text-energy-dark mb-4">Future Cities</h3>
+          <p class="text-gray-600 mb-4">
+            Explore sustainable urban environments where MMIP technology creates harmonious communities.
+          </p>
+          <div class="text-sm text-gray-500 mb-4">
+            <span class="inline-block bg-energy-green text-white px-2 py-1 rounded mr-2">Ages 14+</span>
+            <span class="inline-block bg-energy-blue text-white px-2 py-1 rounded">6 Issues</span>
+          </div>
+          <ul class="text-sm text-gray-600 space-y-1">
+            <li>• Smart city concepts</li>
+            <li>• Sustainable urban planning</li>
+            <li>• Technology integration</li>
+            <li>• Community cooperation</li>
+          </ul>
+        </div>
+
+        <!-- Community Heroes -->
+        <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          <div
+            class="w-full h-48 bg-gradient-to-br from-energy-dark to-energy-accent rounded-lg mb-6 flex items-center justify-center">
+            <div class="text-white text-center">
+              <svg class="w-16 h-16 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z">
+                </path>
+              </svg>
+              <h4 class="text-xl font-bold">Community Heroes</h4>
+            </div>
+          </div>
+          <h3 class="text-xl font-semibold text-energy-dark mb-4">Community Heroes</h3>
+          <p class="text-gray-600 mb-4">
+            Real stories from C.A.R.E. program communities, showing how ordinary people create extraordinary change.
+          </p>
+          <div class="text-sm text-gray-500 mb-4">
+            <span class="inline-block bg-energy-green text-white px-2 py-1 rounded mr-2">All Ages</span>
+            <span class="inline-block bg-energy-blue text-white px-2 py-1 rounded">Ongoing</span>
+          </div>
+          <ul class="text-sm text-gray-600 space-y-1">
+            <li>• True success stories</li>
+            <li>• Community empowerment</li>
+            <li>• Local solutions</li>
+            <li>• Inspiring achievements</li>
+          </ul>
+        </div>
+
+        <!-- Tech Explorers -->
+        <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          <div
+            class="w-full h-48 bg-gradient-to-br from-energy-green to-energy-accent rounded-lg mb-6 flex items-center justify-center">
+            <div class="text-white text-center">
+              <svg class="w-16 h-16 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z">
+                </path>
+              </svg>
+              <h4 class="text-xl font-bold">Tech Explorers</h4>
+            </div>
+          </div>
+          <h3 class="text-xl font-semibold text-energy-dark mb-4">Tech Explorers</h3>
+          <p class="text-gray-600 mb-4">
+            Adventure series following young inventors as they discover and develop breakthrough energy technologies.
+          </p>
+          <div class="text-sm text-gray-500 mb-4">
+            <span class="inline-block bg-energy-green text-white px-2 py-1 rounded mr-2">Ages 10-16</span>
+            <span class="inline-block bg-energy-blue text-white px-2 py-1 rounded">10 Issues</span>
+          </div>
+          <ul class="text-sm text-gray-600 space-y-1">
+            <li>• STEM education</li>
+            <li>• Innovation processes</li>
+            <li>• Problem-solving skills</li>
+            <li>• Scientific method</li>
+          </ul>
+        </div>
+
+        <!-- Earth's Voice -->
+        <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          <div
+            class="w-full h-48 bg-gradient-to-br from-energy-blue to-energy-green rounded-lg mb-6 flex items-center justify-center">
+            <div class="text-white text-center">
+              <svg class="w-16 h-16 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z">
+                </path>
+              </svg>
+              <h4 class="text-xl font-bold">Earth's Voice</h4>
+            </div>
+          </div>
+          <h3 class="text-xl font-semibold text-energy-dark mb-4">Earth's Voice</h3>
+          <p class="text-gray-600 mb-4">
+            Poetic visual stories where Earth itself tells the story of climate change and the hope of renewable energy.
+          </p>
+          <div class="text-sm text-gray-500 mb-4">
+            <span class="inline-block bg-energy-green text-white px-2 py-1 rounded mr-2">Ages 8+</span>
+            <span class="inline-block bg-energy-blue text-white px-2 py-1 rounded">4 Issues</span>
+          </div>
+          <ul class="text-sm text-gray-600 space-y-1">
+            <li>• Environmental awareness</li>
+            <li>• Emotional connection</li>
+            <li>• Hope and action</li>
+            <li>• Natural beauty</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Educational Impact -->
+  <section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-energy-dark mb-4">Educational Programs</h2>
+        <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+          Beyond entertainment, our comics serve as powerful educational tools in schools and communities worldwide
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="text-center">
+          <div class="w-20 h-20 bg-energy-green rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253">
+              </path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-energy-dark mb-3">School Curricula</h3>
+          <p class="text-gray-600">Comics integrated into science and environmental education programs</p>
+        </div>
+
+        <div class="text-center">
+          <div class="w-20 h-20 bg-energy-blue rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9v-9m0-9v9m0 9c-5 0-9-4-9-9s4-9 9-9">
+              </path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-energy-dark mb-3">Digital Platform</h3>
+          <p class="text-gray-600">Online portal with interactive features and downloadable content</p>
+        </div>
+
+        <div class="text-center">
+          <div class="w-20 h-20 bg-energy-accent rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z">
+              </path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-energy-dark mb-3">Community Workshops</h3>
+          <p class="text-gray-600">Local storytelling sessions and comic creation workshops</p>
+        </div>
+
+        <div class="text-center">
+          <div class="w-20 h-20 bg-energy-dark rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+              </path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-energy-dark mb-3">Global Distribution</h3>
+          <p class="text-gray-600">Multi-language translations reaching communities worldwide</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Impact Stats -->
+  <section class="py-16 bg-energy-light">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-energy-dark mb-4">Comics Network Impact</h2>
+        <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+          Measuring the reach and educational impact of visual storytelling for environmental change
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="text-center">
+          <div class="text-4xl font-bold text-energy-green mb-2">500K+</div>
+          <div class="text-gray-600">Comics Distributed</div>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl font-bold text-energy-blue mb-2">25</div>
+          <div class="text-gray-600">Languages</div>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl font-bold text-energy-accent mb-2">1,200+</div>
+          <div class="text-gray-600">Schools Using Content</div>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl font-bold text-energy-dark mb-2">85%</div>
+          <div class="text-gray-600">Student Engagement Increase</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="py-16 bg-energy-dark text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-6">Join the Comics Network</h2>
+      <p class="text-xl mb-8 max-w-2xl mx-auto">
+        Whether you're an educator, parent, or community leader, help us spread environmental awareness
+        through the power of visual storytelling.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="contact.html"
+          class="bg-energy-green text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-600 transition-colors">
+          Access Comics Library
+        </a>
+        <a href="renewable-energy-care.html"
+          class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-energy-dark transition-colors">
+          Learn About C.A.R.E.
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div>
+          <h3 class="text-xl font-bold mb-4">G Com Net <span class="text-energy-green">EnerTech</span></h3>
+          <p class="text-gray-400">Leading the integration of energy and technology solutions for modern society.</p>
+        </div>
+        <div>
+          <h4 class="text-lg font-semibold mb-4">Comic Series</h4>
+          <ul class="space-y-2 text-gray-400">
+            <li><a href="global-comics-network.html" class="hover:text-energy-green transition-colors">EnerTech
+                Champions</a></li>
+            <li><a href="global-comics-network.html" class="hover:text-energy-green transition-colors">Planet
+                Guardians</a></li>
+            <li><a href="global-comics-network.html" class="hover:text-energy-green transition-colors">Future Cities</a>
+            </li>
+            <li><a href="global-comics-network.html" class="hover:text-energy-green transition-colors">Community
+                Heroes</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-lg font-semibold mb-4">Company</h4>
+          <ul class="space-y-2 text-gray-400">
+            <li><a href="about.html" class="hover:text-energy-green transition-colors">About Us</a></li>
+            <li><a href="our-products.html" class="hover:text-energy-green transition-colors">Our Products</a></li>
+            <li><a href="renewable-energy-care.html" class="hover:text-energy-green transition-colors">Renewable Energy
+                C.A.R.E.</a></li>
+            <li><a href="contact.html" class="hover:text-energy-green transition-colors">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-lg font-semibold mb-4">Follow Us</h4>
+          <div class="flex space-x-4">
+            <a href="https://www.facebook.com/GComNet" target="_blank" rel="noopener noreferrer"
+              class="text-gray-400 hover:text-energy-green transition-colors">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+        <p>&copy; 2024 Global Communications Network Energy & Technologies. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
